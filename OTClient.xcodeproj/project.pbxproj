@@ -5191,7 +5191,7 @@
 			inputPaths = (
 			);
 			outputPaths = (
-				"$SRCROOT/Open-Transactions/src",
+				"$(SRCROOT)/Open-Transactions/src",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -5205,11 +5205,11 @@
 			inputPaths = (
 			);
 			outputPaths = (
-				$SRCROOT/openssl/crypto,
+				"$(SRCROOT)/openssl/ssl/tls_srp.c",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "VERSION=1.0.1c\nARCHIVE=openssl-$VERSION.tar.gz\nSHA1=91b684de947cb021ac61b8c51027cc4b63d894ce\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO http://www.openssl.org/source/$ARCHIVE)\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1\n[ -d $SRCROOT/openssl/crypto ] || tar -xvzf $ARCHIVE";
+			shellScript = "VERSION=1.0.1c\nARCHIVE=openssl-$VERSION.tar.gz\nSHA1=91b684de947cb021ac61b8c51027cc4b63d894ce\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO http://www.openssl.org/source/$ARCHIVE)\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1\n[ -f $SRCROOT/openssl/ssl/tls_srp.c ] || tar -xvzf $ARCHIVE";
 		};
 		39541B6816A8AD8B00354CF5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5219,7 +5219,7 @@
 			inputPaths = (
 			);
 			outputPaths = (
-				" $SRCROOT/ChaiScript/src",
+				" $(SRCROOT)/ChaiScript/src",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -5233,11 +5233,11 @@
 			inputPaths = (
 			);
 			outputPaths = (
-				$SRCROOT/boost/boost,
+				"$(SRCROOT)/boost/libs/wave/src/cpplexer/wave_config_constant.cpp",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "VERSION=1.52.0\nARCHIVE=boost_1_52_0.tar.bz2\nSHA1=cddd6b4526a09152ddc5db856463eaa1dc29c5d9\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && \\\ncurl -sSLO http://downloads.sourceforge.net/project/boost/boost/$VERSION/$ARCHIVE)\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1\n[ -d $SRCROOT/boost/boost ] || \\\n(tar -xvyf $ARCHIVE && patch -d $SRCROOT/boost -p0 < $SRCROOT/libcpp_c11_numeric_limits.patch)";
+			shellScript = "VERSION=1.52.0\nARCHIVE=boost_1_52_0.tar.bz2\nSHA1=cddd6b4526a09152ddc5db856463eaa1dc29c5d9\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && \\\ncurl -sSLO http://downloads.sourceforge.net/project/boost/boost/$VERSION/$ARCHIVE)\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1\n[ -f $SRCROOT/boost/libs/wave/src/cpplexer/wave_config_constant.cpp ] || \\\n(tar -xvyf $ARCHIVE && patch -d $SRCROOT/boost -p0 < $SRCROOT/libcpp_c11_numeric_limits.patch)";
 		};
 		39541B6A16A8B1B800354CF5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5247,11 +5247,11 @@
 			inputPaths = (
 			);
 			outputPaths = (
-				$SRCROOT/msgpack/src,
+				"$(SRCROOT)/msgpack/src/zone.c",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "VERSION=0.5.7\nARCHIVE=msgpack-$VERSION.tar.gz\nSHA1=1b04e1b5d47c534cef8d2fbd7718a1e4ffaae4c5\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO http://msgpack.org/releases/cpp/$ARCHIVE)\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1\n[ -d $SRCROOT/msgpack/src ] || tar -xvzf $ARCHIVE";
+			shellScript = "VERSION=0.5.7\nARCHIVE=msgpack-$VERSION.tar.gz\nSHA1=1b04e1b5d47c534cef8d2fbd7718a1e4ffaae4c5\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO http://msgpack.org/releases/cpp/$ARCHIVE)\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1\n[ -f $SRCROOT/msgpack/src/zone.c ] || tar -xvzf $ARCHIVE";
 		};
 		39541B6B16A8B39800354CF5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5261,11 +5261,11 @@
 			inputPaths = (
 			);
 			outputPaths = (
-				$SRCROOT/protobuf/src/config.h,
+				"$(SRCROOT)/protobuf/src/google/protobuf/wire_format_lite_inl.h",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "VERSION=2.4.1\nARCHIVE=protobuf-$VERSION.tar.gz\nSHA1=efc84249525007b1e3105084ea27e3273f7cbfb0\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO https://protobuf.googlecode.com/files/$ARCHIVE)\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1\n[ -d $SRCROOT/protobuf/src ] || tar -xvzf $ARCHIVE\n[ -f $SRCROOT/protobuf/src/config.h ] || (cd $SRCROOT/protobuf && ./configure)";
+			shellScript = "VERSION=2.4.1\nARCHIVE=protobuf-$VERSION.tar.gz\nSHA1=efc84249525007b1e3105084ea27e3273f7cbfb0\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO https://protobuf.googlecode.com/files/$ARCHIVE)\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1\n[ -f $SRCROOT/protobuf/src/google/protobuf/wire_format_lite_inl.h ] || tar -xvzf $ARCHIVE\n[ -f $SRCROOT/protobuf/src/config.h ] || (cd $SRCROOT/protobuf && ./configure)";
 		};
 		39541B6C16A8B47000354CF5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5275,11 +5275,11 @@
 			inputPaths = (
 			);
 			outputPaths = (
-				$SRCROOT/zeromq/src/platform.hpp,
+				"$(SRCROOT)/zeromq/src/zmq_listener.hpp",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "VERSION=2.2.0\nARCHIVE=zeromq-$VERSION.tar.gz\nSHA1=e4bc024c33d3e62f658640625e061ce4e8bd1ff1\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO http://download.zeromq.org/$ARCHIVE)\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1\n[ -d $SRCROOT/zeromq/src ] || tar -xvzf $ARCHIVE\n[ -f $SRCROOT/zeromq/src/platform.hpp ] || (cd $SRCROOT/zeromq && ./configure)";
+			shellScript = "VERSION=2.2.0\nARCHIVE=zeromq-$VERSION.tar.gz\nSHA1=e4bc024c33d3e62f658640625e061ce4e8bd1ff1\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO http://download.zeromq.org/$ARCHIVE)\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1\n[ -f $SRCROOT/zeromq/src/zmq_listener.hpp ] || tar -xvzf $ARCHIVE\n[ -f $SRCROOT/zeromq/src/platform.hpp ] || (cd $SRCROOT/zeromq && ./configure)";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -6450,7 +6450,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/openssl/**";
 			};
 			name = Debug;
 		};
@@ -6464,7 +6463,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/openssl/**";
 			};
 			name = Release;
 		};
@@ -6478,7 +6476,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/openssl/**";
 			};
 			name = Debug;
 		};
@@ -6492,7 +6489,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/openssl/**";
 			};
 			name = Release;
 		};
@@ -6626,14 +6622,24 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/Open-Transactions/include/**",
+					"$(SRCROOT)/Open-Transactions/include",
+					"$(SRCROOT)/Open-Transactions/include/otapi/**",
+					"$(SRCROOT)/Open-Transactions/include/otlib",
 					"$(SRCROOT)/protobuf/src",
 					"$(SRCROOT)/zeromq/include",
 					"$(SRCROOT)/openssl/include",
 					"$(SRCROOT)/msgpack/src",
 					"$(SRCROOT)/ChaiScript/include",
 					"$(SRCROOT)/boost",
-					"$(SRCROOT)/openssl/**",
+					"$(SRCROOT)/openssl/include",
+					"$(SRCROOT)/openssl",
+					"$(SRCROOT)/openssl/MacOS",
+					"$(SRCROOT)/openssl/ssl",
+					"$(SRCROOT)/openssl/crypto",
+					"$(SRCROOT)/openssl/crypto/asn1",
+					"$(SRCROOT)/openssl/crypto/cmac",
+					"$(SRCROOT)/openssl/crypto/evp",
+					"$(SRCROOT)/openssl/crypto/modes",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
@@ -6657,14 +6663,24 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/Open-Transactions/include/**",
+					"$(SRCROOT)/Open-Transactions/include",
+					"$(SRCROOT)/Open-Transactions/include/otapi/**",
+					"$(SRCROOT)/Open-Transactions/include/otlib",
 					"$(SRCROOT)/protobuf/src",
 					"$(SRCROOT)/zeromq/include",
 					"$(SRCROOT)/openssl/include",
 					"$(SRCROOT)/msgpack/src",
 					"$(SRCROOT)/ChaiScript/include",
 					"$(SRCROOT)/boost",
-					"$(SRCROOT)/openssl/**",
+					"$(SRCROOT)/openssl/include",
+					"$(SRCROOT)/openssl",
+					"$(SRCROOT)/openssl/MacOS",
+					"$(SRCROOT)/openssl/ssl",
+					"$(SRCROOT)/openssl/crypto",
+					"$(SRCROOT)/openssl/crypto/asn1",
+					"$(SRCROOT)/openssl/crypto/cmac",
+					"$(SRCROOT)/openssl/crypto/evp",
+					"$(SRCROOT)/openssl/crypto/modes",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
