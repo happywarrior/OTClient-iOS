@@ -1,0 +1,13 @@
+Index: boost/config/stdlib/libcpp.hpp
+===================================================================
+--- boost/config/stdlib/libcpp.hpp	(revision 81323)
++++ boost/config/stdlib/libcpp.hpp	(working copy)
+@@ -34,4 +34,8 @@
+ // libc++ uses a non-standard messages_base
+ #define BOOST_NO_STD_MESSAGES
+ 
++#if _LIBCPP_VERSION < 1002
++#   define BOOST_NO_CXX11_NUMERIC_LIMITS
++#endif
++
+ //  --- end ---

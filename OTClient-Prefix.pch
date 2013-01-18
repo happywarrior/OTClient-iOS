@@ -1,0 +1,14 @@
+//
+// Prefix header for all source files of the 'OTClient' target in the 'OTClient' project
+//
+
+#define NOEXPORT
+#define OT_ZMQ_MODE
+//#define OT_KEYRING_MAC 1 // keyring=mac doesn't work for iOS :( I'll have to write keyring=iphone
+
+#ifdef __ARM_ARCH_7S__
+#define __ARM_ARCH__ 7
+#endif
+
+#define OPENSSL_NO_HW
+#define OPENSSL_NO_GOST

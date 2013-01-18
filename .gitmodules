@@ -1,0 +1,6 @@
+[submodule "Open-Transactions"]
+	path = Open-Transactions
+	url = git://github.com/FellowTraveler/Open-Transactions.git
+[submodule "ChaiScript"]
+	path = ChaiScript
+	url = git://github.com/ChaiScript/ChaiScript.git
