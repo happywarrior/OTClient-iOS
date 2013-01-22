@@ -1203,6 +1203,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		395AD68E16AE5BD9000EB066 /* OTClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OTClient-Prefix.pch"; sourceTree = "<group>"; };
 		755CDBAD16A0DB6400CA98FE /* bio_ssl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bio_ssl.c; sourceTree = "<group>"; };
 		755CDBAE16A0DB6400CA98FE /* d1_both.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = d1_both.c; sourceTree = "<group>"; };
 		755CDBAF16A0DB6400CA98FE /* d1_clnt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = d1_clnt.c; sourceTree = "<group>"; };
@@ -2249,7 +2250,6 @@
 		7594F50A169EC29900039594 /* wire_format_lite.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wire_format_lite.cc; sourceTree = "<group>"; };
 		7594F50B169EC29900039594 /* wire_format_lite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wire_format_lite.h; sourceTree = "<group>"; };
 		7594F50C169EC29900039594 /* wire_format_lite_inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wire_format_lite_inl.h; sourceTree = "<group>"; };
-		759AC09F16A0A14F00592160 /* OTClient-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OTClient-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		75A48087169EC60E007F2FE7 /* array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = array.hpp; sourceTree = "<group>"; };
 		75A48088169EC60E007F2FE7 /* atomic_counter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = atomic_counter.hpp; sourceTree = "<group>"; };
 		75A48089169EC60E007F2FE7 /* atomic_ptr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = atomic_ptr.hpp; sourceTree = "<group>"; };
@@ -2432,124 +2432,6 @@
 		75A482A6169EC990007F2FE7 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
 		75A482A9169EC990007F2FE7 /* vrefbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vrefbuffer.c; sourceTree = "<group>"; };
 		75A482AC169EC990007F2FE7 /* zone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zone.c; sourceTree = "<group>"; };
-		75B02DE016A5011600D375B9 /* BigInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigInteger.h; sourceTree = "<group>"; };
-		75B02DE116A5011600D375B9 /* BigIntegerAlgorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigIntegerAlgorithms.h; sourceTree = "<group>"; };
-		75B02DE216A5011600D375B9 /* BigIntegerLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigIntegerLibrary.h; sourceTree = "<group>"; };
-		75B02DE316A5011600D375B9 /* BigIntegerUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigIntegerUtils.h; sourceTree = "<group>"; };
-		75B02DE416A5011600D375B9 /* BigUnsigned.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigUnsigned.h; sourceTree = "<group>"; };
-		75B02DE516A5011600D375B9 /* BigUnsignedInABase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigUnsignedInABase.h; sourceTree = "<group>"; };
-		75B02DE616A5011600D375B9 /* NumberlikeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberlikeArray.h; sourceTree = "<group>"; };
-		75B02DE816A5011600D375B9 /* containers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = containers.hpp; sourceTree = "<group>"; };
-		75B02DE916A5011600D375B9 /* containers_fixes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = containers_fixes.hpp; sourceTree = "<group>"; };
-		75B02DEA16A5011600D375B9 /* copy_functors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = copy_functors.hpp; sourceTree = "<group>"; };
-		75B02DEB16A5011600D375B9 /* digraph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = digraph.hpp; sourceTree = "<group>"; };
-		75B02DEC16A5011600D375B9 /* digraph.tpp */ = {isa = PBXFileReference; lastKnownFileType = text; path = digraph.tpp; sourceTree = "<group>"; };
-		75B02DED16A5011600D375B9 /* exceptions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = exceptions.hpp; sourceTree = "<group>"; };
-		75B02DEE16A5011600D375B9 /* foursome.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = foursome.hpp; sourceTree = "<group>"; };
-		75B02DEF16A5011600D375B9 /* foursome.tpp */ = {isa = PBXFileReference; lastKnownFileType = text; path = foursome.tpp; sourceTree = "<group>"; };
-		75B02DF016A5011600D375B9 /* hash.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hash.hpp; sourceTree = "<group>"; };
-		75B02DF116A5011600D375B9 /* hash.tpp */ = {isa = PBXFileReference; lastKnownFileType = text; path = hash.tpp; sourceTree = "<group>"; };
-		75B02DF216A5011600D375B9 /* matrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = matrix.hpp; sourceTree = "<group>"; };
-		75B02DF316A5011600D375B9 /* matrix.tpp */ = {isa = PBXFileReference; lastKnownFileType = text; path = matrix.tpp; sourceTree = "<group>"; };
-		75B02DF416A5011600D375B9 /* ntree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ntree.hpp; sourceTree = "<group>"; };
-		75B02DF516A5011600D375B9 /* ntree.tpp */ = {isa = PBXFileReference; lastKnownFileType = text; path = ntree.tpp; sourceTree = "<group>"; };
-		75B02DF616A5011600D375B9 /* safe_iterator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = safe_iterator.hpp; sourceTree = "<group>"; };
-		75B02DF716A5011600D375B9 /* safe_iterator.tpp */ = {isa = PBXFileReference; lastKnownFileType = text; path = safe_iterator.tpp; sourceTree = "<group>"; };
-		75B02DF816A5011600D375B9 /* simple_ptr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = simple_ptr.hpp; sourceTree = "<group>"; };
-		75B02DF916A5011600D375B9 /* simple_ptr.tpp */ = {isa = PBXFileReference; lastKnownFileType = text; path = simple_ptr.tpp; sourceTree = "<group>"; };
-		75B02DFA16A5011600D375B9 /* smart_ptr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = smart_ptr.hpp; sourceTree = "<group>"; };
-		75B02DFB16A5011600D375B9 /* smart_ptr.tpp */ = {isa = PBXFileReference; lastKnownFileType = text; path = smart_ptr.tpp; sourceTree = "<group>"; };
-		75B02DFC16A5011600D375B9 /* triple.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = triple.hpp; sourceTree = "<group>"; };
-		75B02DFD16A5011600D375B9 /* triple.tpp */ = {isa = PBXFileReference; lastKnownFileType = text; path = triple.tpp; sourceTree = "<group>"; };
-		75B02DFF16A5011600D375B9 /* CXMLReaderImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLReaderImpl.h; sourceTree = "<group>"; };
-		75B02E0016A5011600D375B9 /* fast_atof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fast_atof.h; sourceTree = "<group>"; };
-		75B02E0116A5011600D375B9 /* heapsort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = heapsort.h; sourceTree = "<group>"; };
-		75B02E0216A5011600D375B9 /* irrArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = irrArray.h; sourceTree = "<group>"; };
-		75B02E0316A5011600D375B9 /* irrString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = irrString.h; sourceTree = "<group>"; };
-		75B02E0416A5011600D375B9 /* irrTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = irrTypes.h; sourceTree = "<group>"; };
-		75B02E0516A5011600D375B9 /* irrXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = irrXML.h; sourceTree = "<group>"; };
-		75B02E0716A5011600D375B9 /* bank.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bank.h; sourceTree = "<group>"; };
-		75B02E0916A5011600D375B9 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
-		75B02E0A16A5011600D375B9 /* OpenTransactions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenTransactions.h; sourceTree = "<group>"; };
-		75B02E0B16A5011600D375B9 /* OT_ME.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OT_ME.h; sourceTree = "<group>"; };
-		75B02E0C16A5011600D375B9 /* OTAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTAPI.h; sourceTree = "<group>"; };
-		75B02E0D16A5011600D375B9 /* OTAPI_Basic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTAPI_Basic.h; sourceTree = "<group>"; };
-		75B02E0E16A5011600D375B9 /* otapicli.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = otapicli.h; sourceTree = "<group>"; };
-		75B02E0F16A5011600D375B9 /* OTClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTClient.h; sourceTree = "<group>"; };
-		75B02E1016A5011600D375B9 /* OTMadeEasy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTMadeEasy.h; sourceTree = "<group>"; };
-		75B02E1116A5011600D375B9 /* OTServerConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTServerConnection.h; sourceTree = "<group>"; };
-		75B02E1316A5011600D375B9 /* anyoption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = anyoption.h; sourceTree = "<group>"; };
-		75B02E1416A5011600D375B9 /* Bitcoin.pb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bitcoin.pb.h; sourceTree = "<group>"; };
-		75B02E1516A5011600D375B9 /* Bitcoin.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = Bitcoin.proto; sourceTree = "<group>"; };
-		75B02E1616A5011600D375B9 /* buildproto */ = {isa = PBXFileReference; lastKnownFileType = text; path = buildproto; sourceTree = "<group>"; };
-		75B02E1716A5011600D375B9 /* easyzlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = easyzlib.h; sourceTree = "<group>"; };
-		75B02E1816A5011600D375B9 /* ExportWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExportWrapper.h; sourceTree = "<group>"; };
-		75B02E1916A5011600D375B9 /* fast_mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fast_mutex.h; sourceTree = "<group>"; };
-		75B02E1A16A5011600D375B9 /* Generics.pb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Generics.pb.h; sourceTree = "<group>"; };
-		75B02E1B16A5011600D375B9 /* Generics.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = Generics.proto; sourceTree = "<group>"; };
-		75B02E1C16A5011600D375B9 /* Markets.pb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Markets.pb.h; sourceTree = "<group>"; };
-		75B02E1D16A5011600D375B9 /* Markets.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = Markets.proto; sourceTree = "<group>"; };
-		75B02E1E16A5011600D375B9 /* Moneychanger.pb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moneychanger.pb.h; sourceTree = "<group>"; };
-		75B02E1F16A5011600D375B9 /* Moneychanger.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = Moneychanger.proto; sourceTree = "<group>"; };
-		75B02E2016A5011600D375B9 /* OTAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTAccount.h; sourceTree = "<group>"; };
-		75B02E2116A5011600D375B9 /* OTAgreement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTAgreement.h; sourceTree = "<group>"; };
-		75B02E2216A5011600D375B9 /* OTASCIIArmor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTASCIIArmor.h; sourceTree = "<group>"; };
-		75B02E2316A5011600D375B9 /* OTAssetContract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTAssetContract.h; sourceTree = "<group>"; };
-		75B02E2416A5011600D375B9 /* OTAsymmetricKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTAsymmetricKey.h; sourceTree = "<group>"; };
-		75B02E2516A5011600D375B9 /* OTBasket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTBasket.h; sourceTree = "<group>"; };
-		75B02E2616A5011600D375B9 /* OTBylaw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTBylaw.h; sourceTree = "<group>"; };
-		75B02E2716A5011600D375B9 /* OTCheque.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTCheque.h; sourceTree = "<group>"; };
-		75B02E2816A5011600D375B9 /* OTContract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTContract.h; sourceTree = "<group>"; };
-		75B02E2916A5011600D375B9 /* OTCron.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTCron.h; sourceTree = "<group>"; };
-		75B02E2A16A5011600D375B9 /* OTCronItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTCronItem.h; sourceTree = "<group>"; };
-		75B02E2B16A5011600D375B9 /* OTData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTData.h; sourceTree = "<group>"; };
-		75B02E2C16A5011600D375B9 /* OTDataCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTDataCheck.h; sourceTree = "<group>"; };
-		75B02E2D16A5011600D375B9 /* OTEnvelope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTEnvelope.h; sourceTree = "<group>"; };
-		75B02E2E16A5011600D375B9 /* OTglobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTglobal.h; sourceTree = "<group>"; };
-		75B02E2F16A5011600D375B9 /* OTIdentifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTIdentifier.h; sourceTree = "<group>"; };
-		75B02E3016A5011600D375B9 /* OTInstrument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTInstrument.h; sourceTree = "<group>"; };
-		75B02E3116A5011600D375B9 /* OTItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTItem.h; sourceTree = "<group>"; };
-		75B02E3216A5011600D375B9 /* OTKeyring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTKeyring.h; sourceTree = "<group>"; };
-		75B02E3316A5011600D375B9 /* OTLedger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTLedger.h; sourceTree = "<group>"; };
-		75B02E3416A5011600D375B9 /* OTLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTLib.h; sourceTree = "<group>"; };
-		75B02E3516A5011600D375B9 /* OTLibPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTLibPriv.h; sourceTree = "<group>"; };
-		75B02E3616A5011600D375B9 /* OTLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTLog.h; sourceTree = "<group>"; };
-		75B02E3716A5011600D375B9 /* OTMarket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTMarket.h; sourceTree = "<group>"; };
-		75B02E3816A5011600D375B9 /* OTMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTMessage.h; sourceTree = "<group>"; };
-		75B02E3916A5011600D375B9 /* OTMessageBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTMessageBuffer.h; sourceTree = "<group>"; };
-		75B02E3A16A5011600D375B9 /* OTMint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTMint.h; sourceTree = "<group>"; };
-		75B02E3B16A5011600D375B9 /* OTOffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTOffer.h; sourceTree = "<group>"; };
-		75B02E3C16A5011600D375B9 /* OTPassword.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTPassword.h; sourceTree = "<group>"; };
-		75B02E3D16A5011600D375B9 /* OTPaths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTPaths.h; sourceTree = "<group>"; };
-		75B02E3E16A5011600D375B9 /* OTPayload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTPayload.h; sourceTree = "<group>"; };
-		75B02E3F16A5011600D375B9 /* OTPayment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTPayment.h; sourceTree = "<group>"; };
-		75B02E4016A5011600D375B9 /* OTPaymentPlan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTPaymentPlan.h; sourceTree = "<group>"; };
-		75B02E4116A5011600D375B9 /* OTPseudonym.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTPseudonym.h; sourceTree = "<group>"; };
-		75B02E4216A5011600D375B9 /* OTPurse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTPurse.h; sourceTree = "<group>"; };
-		75B02E4316A5011600D375B9 /* OTScript.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTScript.h; sourceTree = "<group>"; };
-		75B02E4416A5011600D375B9 /* OTScriptable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTScriptable.h; sourceTree = "<group>"; };
-		75B02E4516A5011600D375B9 /* OTServerContract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTServerContract.h; sourceTree = "<group>"; };
-		75B02E4616A5011600D375B9 /* OTSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTSettings.h; sourceTree = "<group>"; };
-		75B02E4716A5011600D375B9 /* OTSignature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTSignature.h; sourceTree = "<group>"; };
-		75B02E4816A5011600D375B9 /* OTSignedFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTSignedFile.h; sourceTree = "<group>"; };
-		75B02E4916A5011600D375B9 /* OTSmartContract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTSmartContract.h; sourceTree = "<group>"; };
-		75B02E4A16A5011600D375B9 /* OTStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTStorage.h; sourceTree = "<group>"; };
-		75B02E4B16A5011600D375B9 /* OTString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTString.h; sourceTree = "<group>"; };
-		75B02E4C16A5011600D375B9 /* OTStringXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTStringXML.h; sourceTree = "<group>"; };
-		75B02E4D16A5011600D375B9 /* OTToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTToken.h; sourceTree = "<group>"; };
-		75B02E4E16A5011600D375B9 /* OTTrackable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTTrackable.h; sourceTree = "<group>"; };
-		75B02E4F16A5011600D375B9 /* OTTrade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTTrade.h; sourceTree = "<group>"; };
-		75B02E5016A5011600D375B9 /* OTTransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTTransaction.h; sourceTree = "<group>"; };
-		75B02E5116A5011600D375B9 /* OTTransactionType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTTransactionType.h; sourceTree = "<group>"; };
-		75B02E5216A5011600D375B9 /* OTWallet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTWallet.h; sourceTree = "<group>"; };
-		75B02E5316A5011600D375B9 /* stacktrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stacktrace.h; sourceTree = "<group>"; };
-		75B02E5416A5011600D375B9 /* Timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
-		75B02E5516A5011600D375B9 /* tinythread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tinythread.h; sourceTree = "<group>"; };
-		75B02E5616A5011600D375B9 /* win32_utf8conv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = win32_utf8conv.h; sourceTree = "<group>"; };
-		75B02E5716A5011600D375B9 /* win32_utf8conv_inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = win32_utf8conv_inl.h; sourceTree = "<group>"; };
-		75B02E5816A5011600D375B9 /* WinsockWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WinsockWrapper.h; sourceTree = "<group>"; };
-		75B02E5A16A5011600D375B9 /* ConvertUTF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConvertUTF.h; sourceTree = "<group>"; };
-		75B02E5B16A5011600D375B9 /* SimpleIni.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleIni.h; sourceTree = "<group>"; };
 		75E830A8169E229800003E25 /* libOTClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOTClient.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -4743,198 +4625,9 @@
 			path = tr1;
 			sourceTree = "<group>";
 		};
-		75B02DDE16A500F600D375B9 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				75B02DDF16A5011600D375B9 /* bigint */,
-				75B02DE716A5011600D375B9 /* containers */,
-				75B02DFE16A5011600D375B9 /* irrxml */,
-				75B02E0616A5011600D375B9 /* lucre */,
-				75B02E0816A5011600D375B9 /* otapi */,
-				75B02E1216A5011600D375B9 /* otlib */,
-				75B02E5916A5011600D375B9 /* simpleini */,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
-		75B02DDF16A5011600D375B9 /* bigint */ = {
-			isa = PBXGroup;
-			children = (
-				75B02DE016A5011600D375B9 /* BigInteger.h */,
-				75B02DE116A5011600D375B9 /* BigIntegerAlgorithms.h */,
-				75B02DE216A5011600D375B9 /* BigIntegerLibrary.h */,
-				75B02DE316A5011600D375B9 /* BigIntegerUtils.h */,
-				75B02DE416A5011600D375B9 /* BigUnsigned.h */,
-				75B02DE516A5011600D375B9 /* BigUnsignedInABase.h */,
-				75B02DE616A5011600D375B9 /* NumberlikeArray.h */,
-			);
-			name = bigint;
-			path = "Open-Transactions/include/bigint";
-			sourceTree = "<group>";
-		};
-		75B02DE716A5011600D375B9 /* containers */ = {
-			isa = PBXGroup;
-			children = (
-				75B02DE816A5011600D375B9 /* containers.hpp */,
-				75B02DE916A5011600D375B9 /* containers_fixes.hpp */,
-				75B02DEA16A5011600D375B9 /* copy_functors.hpp */,
-				75B02DEB16A5011600D375B9 /* digraph.hpp */,
-				75B02DEC16A5011600D375B9 /* digraph.tpp */,
-				75B02DED16A5011600D375B9 /* exceptions.hpp */,
-				75B02DEE16A5011600D375B9 /* foursome.hpp */,
-				75B02DEF16A5011600D375B9 /* foursome.tpp */,
-				75B02DF016A5011600D375B9 /* hash.hpp */,
-				75B02DF116A5011600D375B9 /* hash.tpp */,
-				75B02DF216A5011600D375B9 /* matrix.hpp */,
-				75B02DF316A5011600D375B9 /* matrix.tpp */,
-				75B02DF416A5011600D375B9 /* ntree.hpp */,
-				75B02DF516A5011600D375B9 /* ntree.tpp */,
-				75B02DF616A5011600D375B9 /* safe_iterator.hpp */,
-				75B02DF716A5011600D375B9 /* safe_iterator.tpp */,
-				75B02DF816A5011600D375B9 /* simple_ptr.hpp */,
-				75B02DF916A5011600D375B9 /* simple_ptr.tpp */,
-				75B02DFA16A5011600D375B9 /* smart_ptr.hpp */,
-				75B02DFB16A5011600D375B9 /* smart_ptr.tpp */,
-				75B02DFC16A5011600D375B9 /* triple.hpp */,
-				75B02DFD16A5011600D375B9 /* triple.tpp */,
-			);
-			name = containers;
-			path = "Open-Transactions/include/containers";
-			sourceTree = "<group>";
-		};
-		75B02DFE16A5011600D375B9 /* irrxml */ = {
-			isa = PBXGroup;
-			children = (
-				75B02DFF16A5011600D375B9 /* CXMLReaderImpl.h */,
-				75B02E0016A5011600D375B9 /* fast_atof.h */,
-				75B02E0116A5011600D375B9 /* heapsort.h */,
-				75B02E0216A5011600D375B9 /* irrArray.h */,
-				75B02E0316A5011600D375B9 /* irrString.h */,
-				75B02E0416A5011600D375B9 /* irrTypes.h */,
-				75B02E0516A5011600D375B9 /* irrXML.h */,
-			);
-			name = irrxml;
-			path = "Open-Transactions/include/irrxml";
-			sourceTree = "<group>";
-		};
-		75B02E0616A5011600D375B9 /* lucre */ = {
-			isa = PBXGroup;
-			children = (
-				75B02E0716A5011600D375B9 /* bank.h */,
-			);
-			name = lucre;
-			path = "Open-Transactions/include/lucre";
-			sourceTree = "<group>";
-		};
-		75B02E0816A5011600D375B9 /* otapi */ = {
-			isa = PBXGroup;
-			children = (
-				75B02E0916A5011600D375B9 /* main.h */,
-				75B02E0A16A5011600D375B9 /* OpenTransactions.h */,
-				75B02E0B16A5011600D375B9 /* OT_ME.h */,
-				75B02E0C16A5011600D375B9 /* OTAPI.h */,
-				75B02E0D16A5011600D375B9 /* OTAPI_Basic.h */,
-				75B02E0E16A5011600D375B9 /* otapicli.h */,
-				75B02E0F16A5011600D375B9 /* OTClient.h */,
-				75B02E1016A5011600D375B9 /* OTMadeEasy.h */,
-				75B02E1116A5011600D375B9 /* OTServerConnection.h */,
-			);
-			name = otapi;
-			path = "Open-Transactions/include/otapi";
-			sourceTree = "<group>";
-		};
-		75B02E1216A5011600D375B9 /* otlib */ = {
-			isa = PBXGroup;
-			children = (
-				75B02E1316A5011600D375B9 /* anyoption.h */,
-				75B02E1416A5011600D375B9 /* Bitcoin.pb.h */,
-				75B02E1516A5011600D375B9 /* Bitcoin.proto */,
-				75B02E1616A5011600D375B9 /* buildproto */,
-				75B02E1716A5011600D375B9 /* easyzlib.h */,
-				75B02E1816A5011600D375B9 /* ExportWrapper.h */,
-				75B02E1916A5011600D375B9 /* fast_mutex.h */,
-				75B02E1A16A5011600D375B9 /* Generics.pb.h */,
-				75B02E1B16A5011600D375B9 /* Generics.proto */,
-				75B02E1C16A5011600D375B9 /* Markets.pb.h */,
-				75B02E1D16A5011600D375B9 /* Markets.proto */,
-				75B02E1E16A5011600D375B9 /* Moneychanger.pb.h */,
-				75B02E1F16A5011600D375B9 /* Moneychanger.proto */,
-				75B02E2016A5011600D375B9 /* OTAccount.h */,
-				75B02E2116A5011600D375B9 /* OTAgreement.h */,
-				75B02E2216A5011600D375B9 /* OTASCIIArmor.h */,
-				75B02E2316A5011600D375B9 /* OTAssetContract.h */,
-				75B02E2416A5011600D375B9 /* OTAsymmetricKey.h */,
-				75B02E2516A5011600D375B9 /* OTBasket.h */,
-				75B02E2616A5011600D375B9 /* OTBylaw.h */,
-				75B02E2716A5011600D375B9 /* OTCheque.h */,
-				75B02E2816A5011600D375B9 /* OTContract.h */,
-				75B02E2916A5011600D375B9 /* OTCron.h */,
-				75B02E2A16A5011600D375B9 /* OTCronItem.h */,
-				75B02E2B16A5011600D375B9 /* OTData.h */,
-				75B02E2C16A5011600D375B9 /* OTDataCheck.h */,
-				75B02E2D16A5011600D375B9 /* OTEnvelope.h */,
-				75B02E2E16A5011600D375B9 /* OTglobal.h */,
-				75B02E2F16A5011600D375B9 /* OTIdentifier.h */,
-				75B02E3016A5011600D375B9 /* OTInstrument.h */,
-				75B02E3116A5011600D375B9 /* OTItem.h */,
-				75B02E3216A5011600D375B9 /* OTKeyring.h */,
-				75B02E3316A5011600D375B9 /* OTLedger.h */,
-				75B02E3416A5011600D375B9 /* OTLib.h */,
-				75B02E3516A5011600D375B9 /* OTLibPriv.h */,
-				75B02E3616A5011600D375B9 /* OTLog.h */,
-				75B02E3716A5011600D375B9 /* OTMarket.h */,
-				75B02E3816A5011600D375B9 /* OTMessage.h */,
-				75B02E3916A5011600D375B9 /* OTMessageBuffer.h */,
-				75B02E3A16A5011600D375B9 /* OTMint.h */,
-				75B02E3B16A5011600D375B9 /* OTOffer.h */,
-				75B02E3C16A5011600D375B9 /* OTPassword.h */,
-				75B02E3D16A5011600D375B9 /* OTPaths.h */,
-				75B02E3E16A5011600D375B9 /* OTPayload.h */,
-				75B02E3F16A5011600D375B9 /* OTPayment.h */,
-				75B02E4016A5011600D375B9 /* OTPaymentPlan.h */,
-				75B02E4116A5011600D375B9 /* OTPseudonym.h */,
-				75B02E4216A5011600D375B9 /* OTPurse.h */,
-				75B02E4316A5011600D375B9 /* OTScript.h */,
-				75B02E4416A5011600D375B9 /* OTScriptable.h */,
-				75B02E4516A5011600D375B9 /* OTServerContract.h */,
-				75B02E4616A5011600D375B9 /* OTSettings.h */,
-				75B02E4716A5011600D375B9 /* OTSignature.h */,
-				75B02E4816A5011600D375B9 /* OTSignedFile.h */,
-				75B02E4916A5011600D375B9 /* OTSmartContract.h */,
-				75B02E4A16A5011600D375B9 /* OTStorage.h */,
-				75B02E4B16A5011600D375B9 /* OTString.h */,
-				75B02E4C16A5011600D375B9 /* OTStringXML.h */,
-				75B02E4D16A5011600D375B9 /* OTToken.h */,
-				75B02E4E16A5011600D375B9 /* OTTrackable.h */,
-				75B02E4F16A5011600D375B9 /* OTTrade.h */,
-				75B02E5016A5011600D375B9 /* OTTransaction.h */,
-				75B02E5116A5011600D375B9 /* OTTransactionType.h */,
-				75B02E5216A5011600D375B9 /* OTWallet.h */,
-				75B02E5316A5011600D375B9 /* stacktrace.h */,
-				75B02E5416A5011600D375B9 /* Timer.h */,
-				75B02E5516A5011600D375B9 /* tinythread.h */,
-				75B02E5616A5011600D375B9 /* win32_utf8conv.h */,
-				75B02E5716A5011600D375B9 /* win32_utf8conv_inl.h */,
-				75B02E5816A5011600D375B9 /* WinsockWrapper.h */,
-			);
-			name = otlib;
-			path = "Open-Transactions/include/otlib";
-			sourceTree = "<group>";
-		};
-		75B02E5916A5011600D375B9 /* simpleini */ = {
-			isa = PBXGroup;
-			children = (
-				75B02E5A16A5011600D375B9 /* ConvertUTF.h */,
-				75B02E5B16A5011600D375B9 /* SimpleIni.h */,
-			);
-			name = simpleini;
-			path = "Open-Transactions/include/simpleini";
-			sourceTree = "<group>";
-		};
 		75E8309D169E229800003E25 = {
 			isa = PBXGroup;
 			children = (
-				75B02DDE16A500F600D375B9 /* include */,
 				75E830AD169E229800003E25 /* OTClient */,
 				7594EA9C169EB79B00039594 /* zmq */,
 				7594F155169EC1A500039594 /* protobuf */,
@@ -4974,7 +4667,7 @@
 		75E830AE169E229800003E25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				759AC09F16A0A14F00592160 /* OTClient-Prefix.pch */,
+				395AD68E16AE5BD9000EB066 /* OTClient-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -5209,7 +4902,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "VERSION=1.0.1c\nARCHIVE=openssl-$VERSION.tar.gz\nSHA1=91b684de947cb021ac61b8c51027cc4b63d894ce\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO http://www.openssl.org/source/$ARCHIVE && \\\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1)\n\n[ -f $SRCROOT/openssl/ssl/tls_srp.c ] || tar -xvzf $ARCHIVE";
+			shellScript = "VERSION=1.0.1c\nARCHIVE=openssl-$VERSION.tar.gz\nSHA1=91b684de947cb021ac61b8c51027cc4b63d894ce\n\ncd $SRCROOT\n[ -L $SRCROOT/openssl ] || ( rm -rf $SRCROOT/openssl && ln -s openssl-$VERSION openssl )\n\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO http://www.openssl.org/source/$ARCHIVE && \\\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1)\n\n[ -f $SRCROOT/openssl/ssl/tls_srp.c ] || tar -xvzf $ARCHIVE";
 		};
 		39541B6816A8AD8B00354CF5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5237,7 +4930,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "VERSION=1.52.0\nARCHIVE=boost_1_52_0.tar.bz2\nSHA1=cddd6b4526a09152ddc5db856463eaa1dc29c5d9\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && \\\ncurl -sSLO http://downloads.sourceforge.net/project/boost/boost/$VERSION/$ARCHIVE && \\\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1)\n\n[ -f $SRCROOT/boost/libs/wave/src/cpplexer/wave_config_constant.cpp ] || \\\n(tar -xvyf $ARCHIVE && patch -d $SRCROOT/boost -p0 < $SRCROOT/libcpp_c11_numeric_limits.patch)";
+			shellScript = "VERSION=1.52.0\nARCHIVE=boost_1_52_0.tar.bz2\nSHA1=cddd6b4526a09152ddc5db856463eaa1dc29c5d9\n\ncd $SRCROOT\n[ -L $SRCROOT/boost ] || ( rm -rf $SRCROOT/boost && ln -s boost_1_52_0 boost )\n\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && \\\ncurl -sSLO http://downloads.sourceforge.net/project/boost/boost/$VERSION/$ARCHIVE && \\\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1)\n\n[ -f $SRCROOT/boost/libs/wave/src/cpplexer/wave_config_constant.cpp ] || \\\n(tar -xvyf $ARCHIVE && patch -d $SRCROOT/boost -p0 < $SRCROOT/libcpp_c11_numeric_limits.patch)";
 		};
 		39541B6A16A8B1B800354CF5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5251,7 +4944,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "VERSION=0.5.7\nARCHIVE=msgpack-$VERSION.tar.gz\nSHA1=1b04e1b5d47c534cef8d2fbd7718a1e4ffaae4c5\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO http://msgpack.org/releases/cpp/$ARCHIVE && \\\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1)\n\n[ -f $SRCROOT/msgpack/src/zone.c ] || tar -xvzf $ARCHIVE";
+			shellScript = "VERSION=0.5.7\nARCHIVE=msgpack-$VERSION.tar.gz\nSHA1=1b04e1b5d47c534cef8d2fbd7718a1e4ffaae4c5\n\ncd $SRCROOT\n[ -L $SRCROOT/msgpack ] || ( rm -rf $SRCROOT/msgpack && ln -s msgpack-$VERSION msgpack )\n\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO http://msgpack.org/releases/cpp/$ARCHIVE && \\\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1)\n\n[ -f $SRCROOT/msgpack/src/zone.c ] || tar -xvzf $ARCHIVE";
 		};
 		39541B6B16A8B39800354CF5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5265,7 +4958,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "VERSION=2.4.1\nARCHIVE=protobuf-$VERSION.tar.gz\nSHA1=efc84249525007b1e3105084ea27e3273f7cbfb0\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO https://protobuf.googlecode.com/files/$ARCHIVE && \\\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1)\n\n[ -f $SRCROOT/protobuf/src/google/protobuf/wire_format_lite_inl.h ] || tar -xvzf $ARCHIVE\n[ -f $SRCROOT/protobuf/src/config.h ] || (cd $SRCROOT/protobuf && ./configure)";
+			shellScript = "VERSION=2.4.1\nARCHIVE=protobuf-$VERSION.tar.gz\nSHA1=efc84249525007b1e3105084ea27e3273f7cbfb0\n\ncd $SRCROOT\n[ -L $SRCROOT/protobuf ] || ( rm -rf $SRCROOT/protobuf && ln -s protobuf-$VERSION protobuf )\n\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO https://protobuf.googlecode.com/files/$ARCHIVE && \\\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1)\n\n[ -f $SRCROOT/protobuf/src/google/protobuf/wire_format_lite_inl.h ] || tar -xvzf $ARCHIVE\n[ -f $SRCROOT/protobuf/src/config.h ] || (cd $SRCROOT/protobuf && ./configure)";
 		};
 		39541B6C16A8B47000354CF5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5279,7 +4972,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "VERSION=2.2.0\nARCHIVE=zeromq-$VERSION.tar.gz\nSHA1=e4bc024c33d3e62f658640625e061ce4e8bd1ff1\n\ncd $SRCROOT\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO http://download.zeromq.org/$ARCHIVE && \\\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1)\n\n[ -f $SRCROOT/zeromq/src/zmq_listener.hpp ] || tar -xvzf $ARCHIVE\n[ -f $SRCROOT/zeromq/src/platform.hpp ] || (cd $SRCROOT/zeromq && ./configure)";
+			shellScript = "VERSION=2.2.0\nARCHIVE=zeromq-$VERSION.tar.gz\nSHA1=e4bc024c33d3e62f658640625e061ce4e8bd1ff1\n\ncd $SRCROOT\n[ -L $SRCROOT/zeromq ] || ( rm -rf $SRCROOT/zeromq && ln -s zeromq-$VERSION zeromq )\n\n([ -f $SRCROOT/$ARCHIVE ] && openssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1) || \\\n(rm -f $SRCROOT/$ARCHIVE && curl -sSO http://download.zeromq.org/$ARCHIVE && \\\nopenssl sha1 $SRCROOT/$ARCHIVE | grep $SHA1)\n\n[ -f $SRCROOT/zeromq/src/zmq_listener.hpp ] || tar -xvzf $ARCHIVE\n[ -f $SRCROOT/zeromq/src/platform.hpp ] || (cd $SRCROOT/zeromq && ./configure)";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -6444,8 +6137,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/ssl.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OTClient-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6457,8 +6148,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/ssl.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OTClient-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6470,8 +6159,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/crypto.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OTClient-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6483,8 +6170,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/crypto.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OTClient-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6613,6 +6298,8 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OTClient/OTClient-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -6623,8 +6310,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/Open-Transactions/include",
-					"$(SRCROOT)/Open-Transactions/include/otapi/**",
+					"$(SRCROOT)/Open-Transactions/include/otapi",
 					"$(SRCROOT)/Open-Transactions/include/otlib",
+					"$(SRCROOT)/Open-Transactions/include/bigint",
+					"$(SRCROOT)/Open-Transactions/include/irrxml",
+					"$(SRCROOT)/Open-Transactions/include/lucre",
+					"$(SRCROOT)/Open-Transactions/include/simpleini",
 					"$(SRCROOT)/protobuf/src",
 					"$(SRCROOT)/zeromq/include",
 					"$(SRCROOT)/openssl/include",
@@ -6659,13 +6350,19 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OTClient/OTClient-Prefix.pch";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/Open-Transactions/include",
-					"$(SRCROOT)/Open-Transactions/include/otapi/**",
+					"$(SRCROOT)/Open-Transactions/include/otapi",
 					"$(SRCROOT)/Open-Transactions/include/otlib",
+					"$(SRCROOT)/Open-Transactions/include/bigint",
+					"$(SRCROOT)/Open-Transactions/include/irrxml",
+					"$(SRCROOT)/Open-Transactions/include/lucre",
+					"$(SRCROOT)/Open-Transactions/include/simpleini",
 					"$(SRCROOT)/protobuf/src",
 					"$(SRCROOT)/zeromq/include",
 					"$(SRCROOT)/openssl/include",
@@ -6694,8 +6391,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/OTClient.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OTClient-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -6706,8 +6401,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/OTClient.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OTClient-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
