@@ -11,7 +11,7 @@
 #include <OTAPI.h>
 #include <OT_ME.h>
 #include <OTAsymmetricKey.h>
-#include <OTEnvelope.h>
+#include <OTCachedKey.h>
 
 class OTClient_OTCallback : public OTCallback {
     
@@ -85,7 +85,7 @@ public:
         OTAPI_Wrap::AppInit();
         OTAPI_Wrap::It();
         
-        OTMasterKey::It()->UseSystemKeyring(); // OTClient_OTCallback requires a keyring
+        OTCachedKey::It()->UseSystemKeyring(); // OTClient_OTCallback requires a keyring
         OTAPI_Wrap::LoadWallet();
         
         shared = [[self alloc] init];

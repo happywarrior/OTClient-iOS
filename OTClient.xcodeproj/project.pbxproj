@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		395AD69416AE6713000EB066 /* OTClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 395AD69316AE6713000EB066 /* OTClient.mm */; };
+		398038AA16AE70CF007FB7F1 /* OTCachedKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 398038A916AE70CF007FB7F1 /* OTCachedKey.cpp */; };
+		398038AD16AE70E1007FB7F1 /* OTCredential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 398038AC16AE70E1007FB7F1 /* OTCredential.cpp */; };
+		398038AF16AE70F1007FB7F1 /* OTCrypto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 398038AE16AE70F1007FB7F1 /* OTCrypto.cpp */; };
+		398038B116AE7126007FB7F1 /* OTSymmetricKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 398038B016AE7126007FB7F1 /* OTSymmetricKey.cpp */; };
 		755CDE8016A0DD1400CA98FE /* bio_ssl.c in Sources */ = {isa = PBXBuildFile; fileRef = 755CDBAD16A0DB6400CA98FE /* bio_ssl.c */; };
 		755CDE8116A0DD1400CA98FE /* d1_both.c in Sources */ = {isa = PBXBuildFile; fileRef = 755CDBAE16A0DB6400CA98FE /* d1_both.c */; };
 		755CDE8216A0DD1400CA98FE /* d1_clnt.c in Sources */ = {isa = PBXBuildFile; fileRef = 755CDBAF16A0DB6400CA98FE /* d1_clnt.c */; };
@@ -1207,6 +1211,10 @@
 		395AD68E16AE5BD9000EB066 /* OTClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OTClient-Prefix.pch"; sourceTree = "<group>"; };
 		395AD69216AE6713000EB066 /* OTClient.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OTClient.hh; sourceTree = "<group>"; };
 		395AD69316AE6713000EB066 /* OTClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OTClient.mm; sourceTree = "<group>"; };
+		398038A916AE70CF007FB7F1 /* OTCachedKey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OTCachedKey.cpp; sourceTree = "<group>"; };
+		398038AC16AE70E1007FB7F1 /* OTCredential.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OTCredential.cpp; sourceTree = "<group>"; };
+		398038AE16AE70F1007FB7F1 /* OTCrypto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OTCrypto.cpp; sourceTree = "<group>"; };
+		398038B016AE7126007FB7F1 /* OTSymmetricKey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OTSymmetricKey.cpp; sourceTree = "<group>"; };
 		755CDBAD16A0DB6400CA98FE /* bio_ssl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bio_ssl.c; sourceTree = "<group>"; };
 		755CDBAE16A0DB6400CA98FE /* d1_both.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = d1_both.c; sourceTree = "<group>"; };
 		755CDBAF16A0DB6400CA98FE /* d1_clnt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = d1_clnt.c; sourceTree = "<group>"; };
@@ -4198,10 +4206,13 @@
 				7594ED6D169EBBCD00039594 /* OTAsymmetricKey.cpp */,
 				7594ED6E169EBBCD00039594 /* OTBasket.cpp */,
 				7594ED6F169EBBCD00039594 /* OTBylaw.cpp */,
+				398038A916AE70CF007FB7F1 /* OTCachedKey.cpp */,
 				7594ED70169EBBCD00039594 /* OTCheque.cpp */,
 				7594ED71169EBBCD00039594 /* OTContract.cpp */,
+				398038AC16AE70E1007FB7F1 /* OTCredential.cpp */,
 				7594ED72169EBBCD00039594 /* OTCron.cpp */,
 				7594ED73169EBBCD00039594 /* OTCronItem.cpp */,
+				398038AE16AE70F1007FB7F1 /* OTCrypto.cpp */,
 				7594ED74169EBBCD00039594 /* OTData.cpp */,
 				7594ED75169EBBCD00039594 /* OTDataCheck.cpp */,
 				7594ED76169EBBCD00039594 /* OTEnvelope.cpp */,
@@ -4233,6 +4244,7 @@
 				7594ED91169EBBCD00039594 /* OTStorage.cpp */,
 				7594ED92169EBBCD00039594 /* OTString.cpp */,
 				7594ED93169EBBCD00039594 /* OTStringXML.cpp */,
+				398038B016AE7126007FB7F1 /* OTSymmetricKey.cpp */,
 				7594ED94169EBBCD00039594 /* OTToken.cpp */,
 				7594ED95169EBBCD00039594 /* OTTrackable.cpp */,
 				7594ED96169EBBCD00039594 /* OTTrade.cpp */,
@@ -6095,6 +6107,10 @@
 				7594EDF9169EBBCD00039594 /* Timer.cpp in Sources */,
 				7594EDFA169EBBCD00039594 /* tinythread.cpp in Sources */,
 				395AD69416AE6713000EB066 /* OTClient.mm in Sources */,
+				398038AA16AE70CF007FB7F1 /* OTCachedKey.cpp in Sources */,
+				398038AD16AE70E1007FB7F1 /* OTCredential.cpp in Sources */,
+				398038AF16AE70F1007FB7F1 /* OTCrypto.cpp in Sources */,
+				398038B116AE7126007FB7F1 /* OTSymmetricKey.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
