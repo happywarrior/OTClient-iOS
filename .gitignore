@@ -16,3 +16,13 @@ profile
 *.moved-aside
 DerivedData
 .idea/
+boost
+boost_*
+msgpack
+msgpack-*
+openssl
+openssl-*
+protobuf
+protobuf-*
+zeromq
+zeromq-*

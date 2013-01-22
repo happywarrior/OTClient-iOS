@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		395AD69416AE6713000EB066 /* OTClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 395AD69316AE6713000EB066 /* OTClient.mm */; };
 		755CDE8016A0DD1400CA98FE /* bio_ssl.c in Sources */ = {isa = PBXBuildFile; fileRef = 755CDBAD16A0DB6400CA98FE /* bio_ssl.c */; };
 		755CDE8116A0DD1400CA98FE /* d1_both.c in Sources */ = {isa = PBXBuildFile; fileRef = 755CDBAE16A0DB6400CA98FE /* d1_both.c */; };
 		755CDE8216A0DD1400CA98FE /* d1_clnt.c in Sources */ = {isa = PBXBuildFile; fileRef = 755CDBAF16A0DB6400CA98FE /* d1_clnt.c */; };
@@ -1204,6 +1205,8 @@
 
 /* Begin PBXFileReference section */
 		395AD68E16AE5BD9000EB066 /* OTClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OTClient-Prefix.pch"; sourceTree = "<group>"; };
+		395AD69216AE6713000EB066 /* OTClient.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OTClient.hh; sourceTree = "<group>"; };
+		395AD69316AE6713000EB066 /* OTClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OTClient.mm; sourceTree = "<group>"; };
 		755CDBAD16A0DB6400CA98FE /* bio_ssl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bio_ssl.c; sourceTree = "<group>"; };
 		755CDBAE16A0DB6400CA98FE /* d1_both.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = d1_both.c; sourceTree = "<group>"; };
 		755CDBAF16A0DB6400CA98FE /* d1_clnt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = d1_clnt.c; sourceTree = "<group>"; };
@@ -4659,6 +4662,8 @@
 			children = (
 				7594ECD5169EBBCD00039594 /* otapi */,
 				7594ECF3169EBBCD00039594 /* otlib */,
+				395AD69216AE6713000EB066 /* OTClient.hh */,
+				395AD69316AE6713000EB066 /* OTClient.mm */,
 				75E830AE169E229800003E25 /* Supporting Files */,
 			);
 			path = OTClient;
@@ -6089,6 +6094,7 @@
 				7594EDF8169EBBCD00039594 /* snippets.cpp in Sources */,
 				7594EDF9169EBBCD00039594 /* Timer.cpp in Sources */,
 				7594EDFA169EBBCD00039594 /* tinythread.cpp in Sources */,
+				395AD69416AE6713000EB066 /* OTClient.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
